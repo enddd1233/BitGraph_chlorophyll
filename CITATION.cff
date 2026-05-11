@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Mask-Aware Biased Graph Learning for Marine Chlorophyll-a Spatiotemporal Forecasting under High Missing Rates"
+message: "If you use this code or data, please cite the associated paper."
+type: software
+authors:
+  - family-names: He
+    given-names: Xiaoyu
+  - family-names: Xie
+    given-names: Endian
+  - family-names: Fu
+    given-names: Feng
+  - family-names: Shi
+    given-names: Xiaoyu
+  - family-names: Huang
+    given-names: Xin
+repository-code: "https://github.com/enddd1233/BitGraph_chlorophyll"
+license: "LicenseRef-ProprietaryUntilSpecified"

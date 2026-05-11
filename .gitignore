@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime outputs
+log_dir/
+output_models/
+output_metrics/
+xiaorongshiyan/
+figure_dongtaitu/
+PredGTok/
+output_newok/
+output_ok1/
+all_figure/
+artifacts/
+tmp/
+_smoke_test_output/
+
+# Model checkpoints and large arrays
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+
+# Paper/build artifacts
+*.pdf
+*.docx
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.tex.bak*
+
+# Keep placeholder documentation in output folders
+!results/README.md
+!checkpoints/README.md
