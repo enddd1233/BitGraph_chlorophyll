@@ -25,7 +25,6 @@ output_ok1/
 all_figure/
 artifacts/
 tmp/
-_smoke_test_output/
 
 # Model checkpoints and large arrays
 *.pth
@@ -44,6 +43,6 @@ _smoke_test_output/
 *.synctex.gz
 *.tex.bak*
 
-# Keep placeholder documentation in output folders
+# Keep documentation in output folders
 !results/README.md
 !checkpoints/README.md

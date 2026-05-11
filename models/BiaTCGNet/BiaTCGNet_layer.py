@@ -236,7 +236,6 @@ class dilated_inception(nn.Module):
                 feature_x=feature_x*mask_weight
             x.append(feature_x)
             mask_list.append(mask_weight)
-            #todo add mask
 
         for i in range(len(self.kernel_set)):
             x[i] = x[i][...,-x[-1].size(3):]

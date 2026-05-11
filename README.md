@@ -2,7 +2,7 @@
 
 This repository contains the code and processed datasets for the paper **Mask-Aware Biased Graph Learning for Marine Chlorophyll-a Spatiotemporal Forecasting under High Missing Rates**.
 
-The repository is organized for model training, evaluation, and data loading. Paper-figure plotting scripts, intermediate experimental outputs, and local temporary files are not included.
+The repository is organized for model training, evaluation, and data loading. Paper-figure plotting scripts, intermediate experimental outputs, and runtime artifacts are not included.
 
 ## Repository contents
 
@@ -37,7 +37,6 @@ github_BitGraph_chlorophyll/
  checkpoints/
     README.md
  CITATION.cff
- LICENSE
  .gitignore
 ```
 
@@ -107,12 +106,9 @@ Command-line arguments are defined in the corresponding scripts and can be set a
 
 ## Outputs
 
-Runtime outputs, logs, checkpoints, metrics, and temporary files are ignored by Git. Lightweight result summaries can be placed in `results/`, and optional pretrained weights can be placed in `checkpoints/` or released separately.
+Runtime outputs, logs, checkpoints, metrics, and generated artifacts are ignored by Git. Lightweight result summaries can be placed in `results/`, and optional pretrained weights can be placed in `checkpoints/` or released separately.
 
 ## Citation
 
 If you use this code or data, please cite the associated paper. Update `CITATION.cff` with the final DOI and GitHub URL after publication.
 
-## License
-
-The current `LICENSE` file is a placeholder. Replace it with the final license selected by the authors before public release.
